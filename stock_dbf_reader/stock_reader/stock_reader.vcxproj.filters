@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{0498f113-8b53-4a3a-aff3-176cecdc2fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbf_parser">
+      <UniqueIdentifier>{2cf9e5a2-3d7a-4724-9481-789e7f3e6203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handler">
+      <UniqueIdentifier>{89db5bba-523c-4feb-9b5c-f2a3dc04bec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql">
+      <UniqueIdentifier>{79a13050-0a6f-4ead-bf23-a9b1cfae4a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis">
+      <UniqueIdentifier>{c2043d76-eb7f-474a-9872-e244bfd159d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="configure.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="dbf.h">
+      <Filter>dbf_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="inpub_binder.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_exception.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_prepared_statement.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="output_binder.hpp">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="redis_client.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="redis_exception.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="dbf_reader.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="dbf_worker.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stock_reader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="configure.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="dbf.cpp">
+      <Filter>dbf_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql_exception.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql_prepared_statement.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="output_binder.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="redis_client.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+    <ClCompile Include="redis_exception.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+    <ClCompile Include="dbf_reader.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="dbf_worker.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>mysql</Filter>
+    </None>
+  </ItemGroup>
+</Project>
