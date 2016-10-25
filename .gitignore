@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+.cproject
+.project
+.settings
+library/
+sync.bat
+parser/bin/
